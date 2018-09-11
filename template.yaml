@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs6.10
-      CodeUri: ./lambda_function.zip
+      CodeUri: 's3://terraform-serverless-example-nikhil/lambda_function.zip'
       Description: An AWS Lambda function that echo three variables.
       MemorySize: 128
       Timeout: 3
