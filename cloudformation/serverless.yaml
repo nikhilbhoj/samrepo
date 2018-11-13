@@ -6,6 +6,7 @@ Resources:
    Properties:
      Handler: index.handler
      Runtime: nodejs6.10
+     CodeUri: ../src/
      Environment:
        Variables:
          S3_BUCKET: s3://terraform-serverless-example-nikhil
