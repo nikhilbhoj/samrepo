@@ -5,8 +5,5 @@ Resources:
    Type: AWS::Serverless::Function
    Properties:
      Handler: index.handler
-     Runtime: nodejs6.10
-     CodeUri: s3://terraform-serverless-example-nikhil/lambda_function.zip
-     Environment:
-       Variables:
-         S3_BUCKET: s3://terraform-serverless-example-nikhil
+     Runtime: nodejs8.10
+     CodeUri: ../src
